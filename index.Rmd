@@ -1,16 +1,49 @@
 ---
-title: "My awesome website"
+title: "Zhenkun's website"
 output: 
   html_document:
     toc: true
     toc_float: true
 ---
 
-## This is Kun's awesome website
-dsadas
+# Welcome to Zhenkun's Website
 
-## Here is a subsection
+Hello! I'm Zhenkun Fang, a graduate student specializing in Biostatistics at Mailman School of Public Health of Columbia University. I love creating projects that make a difference and solving challenging problems through innovative technology.
 
-## Link to page within the site
+Feel free to explore my website to learn more about my background, projects, and how to get in touch with me.
+
+## Academic Background
+
+Find my education background, professional skills, leadership experience and Resume here!
 
 [About me](about.html)
+
+## Leadership Experience
+
+- 2022 College Student Innovation and Entrepreneurship Training Program
+
+  - Leader for one-year National Innovation Training Project, Duke Kunshan University
+
+  - Communicated with instructors to propose various projects and coordinate work agendas for four team members
+  
+  - Researched the molecular detection of feline viral disease in Kunshan, China
+  
+  - Tracked progress and team budget through visually appealing presentations and reports
+
+- Duke Kunshan University Basketball Club
+
+  - President, Duke Kunshan University
+  
+  - Collaborated with NYU Abu Dhabi to organize a remote basketball shooting competition conducted via Zoom
+  
+  - Organized DKU intramural basketball tournaments, proposed various athletic events, and established rulebook
+  
+  - Led weekly club practices fostering an inclusive environment for participants from diverse backgrounds
+
+## Links and Contact Information
+
+- GitHub: https://github.com/zhenkunnFang
+
+- LinkedIn: https://www.linkedin.com/in/zhenkun-fang-605458214/
+
+- Email: zf2352@columbia.edu

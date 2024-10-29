@@ -6,9 +6,9 @@ navbar:
     - text: "About"
       href: about.html
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: mailto:<zf2352@columbia.edu>
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: https://github.com/zhenkunnFang
 output:
   html_document:
-    theme: cerulean
+    theme: flatly

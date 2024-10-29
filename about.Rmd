@@ -6,6 +6,53 @@ output:
     toc_float: true
 ---
 
-# This page has information about Zhenkun Fang
+I have pursued a solid academic foundation that has equipped me with the knowledge and skills necessary for my professional journey. Below is a summary of my educational background and relevant courses that have contributed to my expertise.
+
+# Academic Background
+
+## Education 
+
+- Duke Kunshan University, Kunshan, Jiangsu, China 
+
+  - Bachelor of Science in Global Health; Biology Track, Class of 2024
+  
+  - Relevant Coursework: Calculus, Multivariable Calculus, Linear Algebra, Introduction to Computer Science
+
+
+- Duke University, Durham, North Carolina, the United States
+
+  - Bachelor of Science in Interdisciplinary Studies; Global Health; Biology
+  
+  - Relevant Coursework: Data Analysis and Statistical Inference, Global Health Data Science
+  
+  
+## Professional Experience
+
+- AstraZeneca, Medical Representative Intern
+
+  - Conducted market research to identify 200+ healthcare professionals and institutions as target customers
+  
+  - Assisted medical professionals in a series of forums about hypertension control to promote health care education and
+increase brand visibility
+
+  - Collaborated with the sales team to track the effects of medicine, providing crucial data for sales strategies
+  
+## Publication
+
+- Semin Kim, Yixi Cheng, Zhenkun Fang, Zhongqi Qiu, Weidong Yu, Aysun Yilmaz, Huseyin Yilmaz, Sajid Umar.
+Molecular Epidemiology and Phylogenetic Analysis of Feline Calicivirus in Kunshan, China. Virology Journal.
+https://doi.org/10.1186/s12985-024-02319-9
+
+- Sajid Umar, Di Gao, Semin Kim, Yixi Cheng, Zhenkun Fang, Qiu Zhongqi, Weidong Yu. Molecular
+Characterization of Canine Parvovirus Type 2 (CPV2) Reveals High Prevalence of CPV2c genotype Among Dogs
+Suffering from Diarrhea. Animal Diseases. https://doi.org/10.1186/s44149-023-00107-6
+
+## Skills and Expertise
+
+- Programming Languages: R, Python, SAS
+
+- Data Visualization: ggplot2, matplotlib
+
+- Web Development: HTML, CSS, blogdown/Hugo
 
 
