@@ -1,0 +1,40 @@
+---
+title: "p8105_hw4_zf2352"
+author: "Zhenkun Fang"
+date: "2024-10-30"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+```
+
+# Problem 2
+
+```{r}
+data(ny_noaa)
+```
+
+```{r}
+ny_noaa = 
+  ny_noaa %>% 
+  filter(!is.na(prcp) & !is.na(snow) &
+           !is.na(snwd) & !is.na(tmax) & !is.na(tmin)) %>% 
+  filter(date > as.Date('2010-09-01'))
+```
+
+```{r scatter plot}
+ny_noaa %>% 
+  mutate(
+    text_label = str_c("Date: ", date, "\nSnow depth (mm): ", snwd)
+  ) %>% 
+  plot_ly(
+    x = ~prcp, y = ~snow, color = ~snwd, text = ~text_label,
+    type = "scatter", mode = "markers", alpha = 0.5
+  )
+```
+
