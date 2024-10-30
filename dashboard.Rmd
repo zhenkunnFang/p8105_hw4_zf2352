@@ -1,25 +1,22 @@
 ---
-title: "p8105_hw4_zf2352"
-author: "Zhenkun Fang"
-date: "2024-10-30"
-output: html_document
+title: "Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
+library(flexdashboard)
 ```
-
-# Problem 2
 
 ```{r}
 data(ny_noaa)
-```
 
-```{r}
 ny_noaa = 
   ny_noaa %>% 
   filter(!is.na(prcp) & !is.na(snow) &
@@ -27,7 +24,13 @@ ny_noaa =
   filter(date > as.Date('2010-09-01'))
 ```
 
-```{r scatter plot}
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
 ny_noaa %>% 
   mutate(
     text_label = str_c("Date: ", date, "\nSnow depth (mm): ", snwd)
@@ -44,7 +47,12 @@ ny_noaa %>%
   )
 ```
 
-```{r box plot}
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
 ny_noaa %>% 
   mutate(
     month = format(date, "%m")
@@ -60,7 +68,9 @@ ny_noaa %>%
   )
 ```
 
-```{r bar chart}
+### Chart C
+
+```{r}
 ny_noaa_summary <- ny_noaa %>%
   mutate(
     month = format(date, "%m"),
