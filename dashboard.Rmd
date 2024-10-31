@@ -40,7 +40,7 @@ ny_noaa %>%
     type = "scatter", mode = "markers", alpha = 0.5
   ) %>%
   layout(
-    title = "Trends Between Precipitation and Snowfall", 
+    title = "Trends Between Precipitation and Snowfall from Sept 2010 to Dec 2010", 
     xaxis = list(title = "Precipitation (tenths of mm)"), 
     yaxis = list(title = " Snowfall (mm)"),
     colorbar = list(title = "Snow Depth (mm)")
